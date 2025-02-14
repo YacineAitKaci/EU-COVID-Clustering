@@ -38,7 +38,7 @@ pip install pandas numpy matplotlib seaborn scipy scikit-learn
 ```
 2. **Run the clustering script:**
 ```bash
-jupyter notebook clustering_analysis.ipynb
+jupyter notebook main.ipynb
 ```
 
 ## 📌 Key Insights
