@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_00116acb2a1a5182976b517beb7effa5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_00116acb2a1a5182976b517beb7effa5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_00116acb2a1a5182976b517beb7effa5 = L.map(
+                "map_00116acb2a1a5182976b517beb7effa5",
+                {
+                    center: [50.0, 10.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3cc04dcec66eb1d4603b4053c6072270 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3cc04dcec66eb1d4603b4053c6072270.addTo(map_00116acb2a1a5182976b517beb7effa5);
+        
+    
+            var circle_marker_5c55a91d8b67f3f6e93d67721247d490 = L.circleMarker(
+                [46.6034, 1.8883],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_00116acb2a1a5182976b517beb7effa5);
+        
+    
+        var popup_8bd7d3bf2a5c8353dd2e77183e3d35d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79d710172795eab0957ab70ec9cfc688 = $(`<div id="html_79d710172795eab0957ab70ec9cfc688" style="width: 100.0%; height: 100.0%;">France: Cluster 4</div>`)[0];
+                popup_8bd7d3bf2a5c8353dd2e77183e3d35d6.setContent(html_79d710172795eab0957ab70ec9cfc688);
+            
+        
+
+        circle_marker_5c55a91d8b67f3f6e93d67721247d490.bindPopup(popup_8bd7d3bf2a5c8353dd2e77183e3d35d6)
+        ;
+
+        
+    
+    
+            var circle_marker_d23d1643d2b7b5ad5f93da2cc5867144 = L.circleMarker(
+                [47.5162, 14.5501],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_00116acb2a1a5182976b517beb7effa5);
+        
+    
+        var popup_299d0e1df164e9394df6365346c75eef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05d616e13f3d3a59e028cf98b47252e2 = $(`<div id="html_05d616e13f3d3a59e028cf98b47252e2" style="width: 100.0%; height: 100.0%;">Austria: Cluster 4</div>`)[0];
+                popup_299d0e1df164e9394df6365346c75eef.setContent(html_05d616e13f3d3a59e028cf98b47252e2);
+            
+        
+
+        circle_marker_d23d1643d2b7b5ad5f93da2cc5867144.bindPopup(popup_299d0e1df164e9394df6365346c75eef)
+        ;
+
+        
+    
+    
+            var circle_marker_123507f35428857af1df7cc651e8d203 = L.circleMarker(
+                [50.8503, 4.3517],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_00116acb2a1a5182976b517beb7effa5);
+        
+    
+        var popup_af870563559139ec4a585f82955dbd00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c85060b8e02dcab1a15ca5fa0317152 = $(`<div id="html_4c85060b8e02dcab1a15ca5fa0317152" style="width: 100.0%; height: 100.0%;">Belgium: Cluster 1</div>`)[0];
+                popup_af870563559139ec4a585f82955dbd00.setContent(html_4c85060b8e02dcab1a15ca5fa0317152);
+            
+        
+
+        circle_marker_123507f35428857af1df7cc651e8d203.bindPopup(popup_af870563559139ec4a585f82955dbd00)
+        ;
+
+        
+    
+    
+            var circle_marker_3f6eadce4b0da2bafd50916f16de4c64 = L.circleMarker(
+                [49.8175, 15.473],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_00116acb2a1a5182976b517beb7effa5);
+        
+    
+        var popup_75f3ba2a86f1d3907fbf54417a94c6de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3089548b1d5c701f93d40e6e12702c5d = $(`<div id="html_3089548b1d5c701f93d40e6e12702c5d" style="width: 100.0%; height: 100.0%;">Czechia: Cluster 1</div>`)[0];
+                popup_75f3ba2a86f1d3907fbf54417a94c6de.setContent(html_3089548b1d5c701f93d40e6e12702c5d);
+            
+        
+
+        circle_marker_3f6eadce4b0da2bafd50916f16de4c64.bindPopup(popup_75f3ba2a86f1d3907fbf54417a94c6de)
+        ;
+
+        
+    
+    
+            var circle_marker_44188f8345511d6d1aacea63a6fcbb3f = L.circleMarker(
+                [56.2639, 9.5018],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_00116acb2a1a5182976b517beb7effa5);
+        
+    
+        var popup_258990b5bd2db6dc2f2cedc628312407 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_780bf372a765c1951ac3ccf70602c2b2 = $(`<div id="html_780bf372a765c1951ac3ccf70602c2b2" style="width: 100.0%; height: 100.0%;">Denmark: Cluster 4</div>`)[0];
+                popup_258990b5bd2db6dc2f2cedc628312407.setContent(html_780bf372a765c1951ac3ccf70602c2b2);
+            
+        
+
+        circle_marker_44188f8345511d6d1aacea63a6fcbb3f.bindPopup(popup_258990b5bd2db6dc2f2cedc628312407)
+        ;
+
+        
+    
+    
+            var circle_marker_d8a2f58ac3265809accd2baf3eadc19d = L.circleMarker(
+                [61.9241, 25.7482],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_00116acb2a1a5182976b517beb7effa5);
+        
+    
+        var popup_d2c2baf0a53745e8b03fe1b1305d227d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dac029b74383cc4aa42fb5f316fe0121 = $(`<div id="html_dac029b74383cc4aa42fb5f316fe0121" style="width: 100.0%; height: 100.0%;">Finland: Cluster 3</div>`)[0];
+                popup_d2c2baf0a53745e8b03fe1b1305d227d.setContent(html_dac029b74383cc4aa42fb5f316fe0121);
+            
+        
+
+        circle_marker_d8a2f58ac3265809accd2baf3eadc19d.bindPopup(popup_d2c2baf0a53745e8b03fe1b1305d227d)
+        ;
+
+        
+    
+    
+            var circle_marker_320f7fd5dadec7a79b3f0127834b60c7 = L.circleMarker(
+                [42.7339, 25.4858],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_00116acb2a1a5182976b517beb7effa5);
+        
+    
+        var popup_d8d65e2b614fe7b78691ea4de8e19477 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1b7343bfcd8a2620b568f3167fd34e9 = $(`<div id="html_b1b7343bfcd8a2620b568f3167fd34e9" style="width: 100.0%; height: 100.0%;">Bulgaria: Cluster 2</div>`)[0];
+                popup_d8d65e2b614fe7b78691ea4de8e19477.setContent(html_b1b7343bfcd8a2620b568f3167fd34e9);
+            
+        
+
+        circle_marker_320f7fd5dadec7a79b3f0127834b60c7.bindPopup(popup_d8d65e2b614fe7b78691ea4de8e19477)
+        ;
+
+        
+    
+    
+            var circle_marker_f3820ebe4a478a010ab1a081aee7f54d = L.circleMarker(
+                [45.1, 15.2],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_00116acb2a1a5182976b517beb7effa5);
+        
+    
+        var popup_2cc2b88410f1bb91822f4ee090648563 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_150a2b924244cfc0b8dedfd79e9a674f = $(`<div id="html_150a2b924244cfc0b8dedfd79e9a674f" style="width: 100.0%; height: 100.0%;">Croatia: Cluster 1</div>`)[0];
+                popup_2cc2b88410f1bb91822f4ee090648563.setContent(html_150a2b924244cfc0b8dedfd79e9a674f);
+            
+        
+
+        circle_marker_f3820ebe4a478a010ab1a081aee7f54d.bindPopup(popup_2cc2b88410f1bb91822f4ee090648563)
+        ;
+
+        
+    
+    
+            var circle_marker_a7261301ad8d24e9faed81b51a43bb8c = L.circleMarker(
+                [58.5953, 25.0136],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_00116acb2a1a5182976b517beb7effa5);
+        
+    
+        var popup_00c603b8975c296c8877d9528cd8fad8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38742d375d22ec465a615f5057e32ff8 = $(`<div id="html_38742d375d22ec465a615f5057e32ff8" style="width: 100.0%; height: 100.0%;">Estonia: Cluster 4</div>`)[0];
+                popup_00c603b8975c296c8877d9528cd8fad8.setContent(html_38742d375d22ec465a615f5057e32ff8);
+            
+        
+
+        circle_marker_a7261301ad8d24e9faed81b51a43bb8c.bindPopup(popup_00c603b8975c296c8877d9528cd8fad8)
+        ;
+
+        
+    
+    
+            var circle_marker_41ad2b4ca628fb5b67f9cf0c94ef88a8 = L.circleMarker(
+                [35.1264, 33.4299],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_00116acb2a1a5182976b517beb7effa5);
+        
+    
+        var popup_a28d16d771c439e93299f7562f4af9cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44b65069f0faea84bb823b0b04400130 = $(`<div id="html_44b65069f0faea84bb823b0b04400130" style="width: 100.0%; height: 100.0%;">Cyprus: Cluster 4</div>`)[0];
+                popup_a28d16d771c439e93299f7562f4af9cb.setContent(html_44b65069f0faea84bb823b0b04400130);
+            
+        
+
+        circle_marker_41ad2b4ca628fb5b67f9cf0c94ef88a8.bindPopup(popup_a28d16d771c439e93299f7562f4af9cb)
+        ;
+
+        
+    
+</script>
+</html>
